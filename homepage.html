@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="homepage.html">Home</a>
+        <a href="productlisting.html">Products</a>
+        <a href="wishlist.html">Wishlist</a>
+    </div>
+
+    <div class="container">
+        <h1>Welcome to the Price Comparison App</h1>
+        <p>Find the best products at the best prices!</p>
+
+        <!-- Search Bar -->
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Search for products...">
+            <button onclick="searchProducts()">Search</button>
+        </div>
+
+        <h2>Recommended Products</h2>
+        <div id="recommended-products"></div>
+    </div>
+
+    <script src="homepage.js"></script>
+</body>
+</html>
